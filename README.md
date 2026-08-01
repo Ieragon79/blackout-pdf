@@ -1,2 +1,21 @@
-# blackout-pdf
-Offline PDF redaction tool for removing sensitive information before sharing documents with AI.
+Blackout PDF
+
+Privacy-first PDF sanitizer.
+
+Features
+
+✔ Offline
+
+✔ Open Source
+
+✔ True PDF Redaction
+
+✔ No Internet
+
+✔ AI Safe
+
+✔ Windows
+
+✔ Linux futuramente
+
+✔ Drag & Drop
