@@ -1,21 +1,13 @@
-Blackout PDF
+# Blackout PDF
 
-Privacy-first PDF sanitizer.
+Offline tool for removing sensitive information from PDF documents.
 
-Features
+## Status
 
-✔ Offline
+🚧 Under development
 
-✔ Open Source
+## Goals
 
-✔ True PDF Redaction
-
-✔ No Internet
-
-✔ AI Safe
-
-✔ Windows
-
-✔ Linux futuramente
-
-✔ Drag & Drop
+- Offline
+- Open Source
+- True PDF Redaction
