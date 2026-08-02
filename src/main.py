@@ -44,27 +44,31 @@ def abrir_pdf():
             str(erro)
         )
 
+def main():
+    janela = tk.Tk()
+    janela.title("Blackout PDF")
+    janela.geometry("420x180")
+    janela.resizable(False, False)
 
-janela = tk.Tk()
-janela.title("Blackout PDF")
-janela.geometry("420x180")
-janela.resizable(False, False)
+    titulo = tk.Label(
+        janela,
+        text="Blackout PDF",
+        font=("Arial", 16, "bold")
+    )
 
-titulo = tk.Label(
-    janela,
-    text="Blackout PDF",
-    font=("Arial", 16, "bold")
-)
+    titulo.pack(pady=20)
 
-titulo.pack(pady=20)
+    botao = tk.Button(
+        janela,
+        text="Selecionar PDF",
+        width=20,
+        command=abrir_pdf
+    )
 
-botao = tk.Button(
-    janela,
-    text="Selecionar PDF",
-    width=20,
-    command=abrir_pdf
-)
+    botao.pack()
 
-botao.pack()
+    janela.mainloop()
 
-janela.mainloop()
+
+if __name__ == "__main__":
+    main()
