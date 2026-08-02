@@ -1,12 +1,13 @@
 """
 Blackout PDF
-Versão 0.1
 
-Objetivo:
-- Abrir um PDF
-- Confirmar que o arquivo foi carregado
+Versão: 0.1
+Status: Em desenvolvimento
 
-Autor: Memeiro
+Projeto offline para sanitização de PDFs.
+
+Todo o processamento acontece localmente.
+Nenhum arquivo é enviado para a internet.
 """
 
 import tkinter as tk
